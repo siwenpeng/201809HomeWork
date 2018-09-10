@@ -1,0 +1,16 @@
+5、不能   打开浏览器时浏览器自上而下运行还没进行点击for循环就已经
+循环完毕此时是页面选中的i是最后一个
+目前有两种
+1、for (var i = 0; i < oLis.length; i++) {
+    oLis[i].onclick=(function (n) {
+        return function () {
+             tabChange(n)
+        }
+    })(i)
+}
+
+2、for (var i = 0; i < oLis.length; i++) {
+    oLis[i].zhufeng=i
+    oLis[i].onclick=function () {
+        tabChange(this.zhufeng)
+    }

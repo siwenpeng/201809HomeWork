@@ -1,0 +1,44 @@
+眉、
+1、arr.pop     arr.splice(arr.length-1 , 1 )
+2、arr.push     array[array.length]
+3、var ary=[1,2,3]
+ console.log(ary.concat([]));
+ console.log(ary.slice(0, ary.length));
+ console.log(ary.splice(0, ary.length, ary));
+
+4、var ary=[1,2,3,13,75,56];
+ console.log(ary.sort(function (a, b) {return a - b}));
+
+5、var ary=[1,2,3,13,75,56];
+     ary.slice(n-1,m);
+
+
+膨、
+1、true   2、true  3、true   4、false   5、51    6、false  7、true   8、ok  9、｀ ¨
+10、true
+
+励、
+ var  ary=['red','yellow','pink','green','blue']
+    var inputs=document.getElementsByTagName('input');
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].onclick=(function (n) {
+            return function () {
+                document.body.style.backgroundColor=ary[n];
+            }
+        })(i)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+一、
+1、基本数据类型：number、boolean、string、null、undefined；
+引用数据类型：object、function、Array、Date；
+区别：基本数据类型是指一个数据，引用数据类型是指多个值构成的对象；
+
+2、typeof、instanceof、constructor、tostring；       isNaN;
+
+3、arguments；   Number、parseInt、parseFloat；
+二、
+
+1、document.getElementById('div1')、document.getElementsByClassName('w')、
+     document.getElementsByName('h')、document.getElementsByTagName('div')；
+     document.querySelector('div')、document.queryselector('.w')
+
+2、var w = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
+     var h = window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;
+
+3、previousSbiling；
+
+4、var oDiv= document.createElement('div');
+document.body.appendChild(oDiv);
+
+5、 var aa=ele.cloneNode(true);
+ document.div.appendChild(aa);（   错的   需更改    ）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
